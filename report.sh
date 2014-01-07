@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd /usr/local/sbin/reporter/
+
 # directories
 CWD=$(pwd)
 
