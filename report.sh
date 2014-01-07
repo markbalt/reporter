@@ -29,4 +29,4 @@ echo "[$NOW] Completed report: $1" >> ${LOG}
 # send email
 php send.php "$1 Report $NOW" "$TEMP" "$2" $(cat from) >> ${LOG}
 
-#rm ${TEMPDIR}/*
+rm ${TEMPDIR}/*
