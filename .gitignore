@@ -1,4 +1,5 @@
 my.cnf
 from
+catalog/*
 log/*
 temp/*
