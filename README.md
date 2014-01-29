@@ -15,7 +15,9 @@ Running a Report
 To use, create a .sql file in catalog/.  Then pass that script name and recipient to report.sh:
 
 ```bash
-report.sh my_script email@domain.com
+report.sh my_script [email@domain.com]
 ```
+
+Alternatively, you can specify comma-delimited recipients in a .to file in the catalog/ directory with the base filename the same as the report name and leave out the recipient parameter.
 
 Simple as that.
